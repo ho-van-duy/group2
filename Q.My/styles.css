@@ -1,0 +1,71 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #f5f5dc;
+    background-image: url('background-pattern.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #4b3621;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: rgba(255, 248, 231, 0.9);
+    padding: 20px;
+    border: 10px solid #8b4513;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-image: url('border-pattern.png') 30 stretch;
+}
+header {
+    background: url('header-pattern.jpg') no-repeat center;
+    background-size: cover;
+    background: #8b4513;
+    color: white;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 5px solid #5a2d0c;
+}
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #8b4513;
+}
+h2 {
+    color: #5a2d0c;
+    border-bottom: 3px solid #8b4513;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+section {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 20px;
+}
+ul li::before {
+    content: "\2022";
+    color: #8b4513;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+footer {
+    background: #8b4513;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-top: 5px solid #5a2d0c;
+}

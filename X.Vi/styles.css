@@ -1,0 +1,60 @@
+/* CSS phong cách Blackpink */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+header {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    padding: 50px 20px;
+    color: #000;
+}
+p {
+    line-height: 1.4;
+    text-indent: 10px;
+    font-size: 17px;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2rem;
+    color: #ff9a9e;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ff9a9e;
+}
+section {
+    padding: 40px 20px;
+    border-bottom: 2px solid #ff9a9e;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.highlight {
+    color: #ff9a9e;
+    font-weight: bold;
+}
+.hobbies, .personality, .philosophy, .contact ,.strengths{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
