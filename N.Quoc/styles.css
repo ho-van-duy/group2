@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 .profile-container {
-    max-width: 60%;
+    max-width: 900px;
     margin: 50px auto;
     background: #333;
     border-radius: 10px;
